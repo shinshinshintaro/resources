@@ -1,0 +1,47 @@
+body {
+    text-align:center;
+    font-family: 'Arial', sans-serif;
+    font-size: 250%;
+    margin: 0;
+    padding: 0;
+    color: #15ff00;
+}
+
+p {
+    text-align:center;
+    font-size: 100px;
+    line-height: 100%;
+}
+
+ul {
+    text-align:center;
+    padding: 5px;
+    background-image: url('../image/haikei3.png');
+    background-position: left;
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+li {
+    padding: 5px;
+}
+
+li:hover {
+    background: #ff9d00;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: yellowgreen;
+}
+
+a:hover {
+    color: #05a;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
